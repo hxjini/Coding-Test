@@ -1,10 +1,10 @@
 # [level 0] 두 수의 곱 - 120804 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120804?language=c) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120804?language=python3) 
 
 ### 성능 요약
 
-메모리: 4.46 MB, 시간: 0.01 ms
+메모리: 10.3 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 06월 20일 18:16:43
+2024년 08월 12일 00:41:52
 
 ### 문제 설명
 
