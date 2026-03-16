@@ -2,14 +2,12 @@ import sys
 input = sys.stdin.readline
 
 n, k = map(int, input().split())
-coins = sorted(list(int(input()) for _ in range(n)), reverse = True) 
+coins = sorted(int(input()) for _ in range(n))
 
 ans = 0
-for coin in coins:
-    ans += (k//coin)
-    k %= coin
+for i in range(n - 1, -1, -1):
+    ans += (k//coins[i])
+    k %= coins[i]
     
-    if k == 0:
-        break
     
 print(ans)
