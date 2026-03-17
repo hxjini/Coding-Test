@@ -2,12 +2,13 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-p = list(map(int, input().split()))
+times = sorted(list(map(int, input().split())))
 
-p.sort()
-
-ans = 0
+total = 0
 for i in range(n):
-    ans += sum(p[:i+1])
+    numsum = 0
+    for j in range(0, i+1):
+        numsum += times[j]
+    total += numsum
 
-print(ans)
+print(total)
